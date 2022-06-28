@@ -18,13 +18,13 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hey there! My name is *{}*, I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+Hey there! My name is DaisyMissBot, I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
-Join my [news channel](https://t.me/ProIndians) to get information on all the latest updates.
+Join my [news channel](https://t.me/MajesteBotlar) to get information on all the latest updates.
 """
 
 HELP_STRINGS = """
-Hey! My name is *{}*. I am a group management bot, here to help you get around and keep the order in your groups!
+Hey! My name is DaisyMissBot. I am a group management bot, here to help you get around and keep the order in your groups!
 I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords.
 
 *Helpful commands*:
@@ -34,10 +34,10 @@ I have lots of handy features, such as flood control, a warning system, a note k
 
 {}
 All commands can be used with the following: / !
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "If you have any bugs or questions on how to use me, have a look at my [Group](https://t.me/ProHelpDesk), or head to @ProIndians.")
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "If you have any bugs or questions on how to use me, have a look at my [Group](https://t.me/Majesteler), My Owner @MajesteSahip.")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](t.me/MajesteSahip) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
 There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
@@ -133,9 +133,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                                     parse_mode=ParseMode.MARKDOWN,
                                     disable_web_page_preview=True,
                                     reply_markup=InlineKeyboardMarkup(
-                                        [[InlineKeyboardButton(text="Add me to your chat!", url="t.me/{}?startgroup=true".format(bot.username))]]))
+                                        [[InlineKeyboardButton(text="Add me to your chat!", url="t.me/DaisyMissBot?startgroup=true".format(bot.username))]]))
     else:
-        update.effective_message.reply_text("Hello all Join @ProIndians.")
+        update.effective_message.reply_text("Hello all Join @Majesteler.")
 
 
 # for test purposes
@@ -226,7 +226,7 @@ def get_help(bot: Bot, update: Update):
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="Help",
-                                                                       url="t.me/{}?start=help".format(
+                                                                       url="t.me/DaisyMissBot?start=help".format(
                                                                            bot.username))]]))
         return
 
@@ -343,7 +343,7 @@ def get_settings(bot: Bot, update: Update):
             msg.reply_text(text,
                            reply_markup=InlineKeyboardMarkup(
                                [[InlineKeyboardButton(text="Settings",
-                                                      url="t.me/{}?start=stngs_{}".format(
+                                                      url="t.me/DaisyMissBot?start=stngs_{}".format(
                                                           bot.username, chat.id))]]))
         else:
             text = "Click here to check your settings."
