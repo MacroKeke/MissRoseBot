@@ -7,6 +7,7 @@
 ### My Profile
 
 **Bu Proje [🇹🇷⃟ꪶ͢Mᴀᴊᴇsᴛᴇ༆ ⏤͟͟͞͞ƒմɾƘɑղꗄ➺ ×͜×](https://t.me/MajesteSahip) e aittir.**
+__ Developer [SakirBey](t.me/SakirBey2) :)__
 
 ## Profile
 
