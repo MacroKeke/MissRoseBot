@@ -8,8 +8,6 @@
 
 **Bu Proje [🇹🇷⃟ꪶ͢Mᴀᴊᴇsᴛᴇ༆ ⏤͟͟͞͞ƒմɾƘɑղꗄ➺ ×͜×](https://t.me/MajesteSahip) e aittir.**
 
-__Developer [SakirBey](t.me/SakirBey2) :)__
-
 ## Profile
 
 ![Rose Profile](https://telegra.ph/file/718d48493d1fb11197d8b.jpg)
